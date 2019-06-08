@@ -19,10 +19,10 @@ In this project, the model is trained to colour grayscale images of the followin
 + The dataset for rest of the other categories: [Computational Visual Cognition Laboratory](http://cvcl.mit.edu/database.htm)
 
 # Model Architecture:
-The model follows an encoder-decoder architecture, with skip connections from encoder fed to the decoder (U-Net). The model consists of 7 blocks of encoder followed by 7 blocks of decoder. The following figure depicts the network architecture:
+The model follows an encoder-decoder architecture, with skip connections from encoder fed to the decoder (U-Net). The model consists of 7 blocks of encoder followed by 7 blocks of decoder. ([Architecture](blob/master/images/flow.png))
 
-[Architecture](https://github.com/humblefool01/Image-Colourization/blob/master/images/flow.png)
-
+Each encoder block has a Convolutional layer, LeakyReLU layer followed by a BatchNormalization layer.
+Each decoder block has an Addition layer to add skip connections, ConvolutionalTranspose layer, LeakyReLU layer and BatchNormalization layer.
 
 # Results:
 
