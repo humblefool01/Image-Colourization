@@ -21,7 +21,7 @@ In this project, the model is trained to colour grayscale images of the followin
 # Model Architecture:
 The model follows an encoder-decoder architecture, with skip connections from encoder fed to the decoder (U-Net). The model consists of 7 blocks of encoder followed by 7 blocks of decoder. The following figure depicts the network architecture:
 
-![alt text]: (https://github.com/humblefool01/Image-Colourization/blob/master/images/flow.png)
+[Architecture](https://github.com/humblefool01/Image-Colourization/blob/master/images/flow.png)
 
 
 # Results:
