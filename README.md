@@ -29,7 +29,7 @@ Architecture of the model:
 
 
 # Trained model: 
-You can download the trained model from this [link](https://drive.google.com/open?id=1-ENEFslyFArok-b3Yc4tWtLn7rF5wwTI)
+You can download the trained model from this [link](https://drive.google.com/file/d/1-ENEFslyFArok-b3Yc4tWtLn7rF5wwTI/view?usp=sharing)
 
 
 # Results:
