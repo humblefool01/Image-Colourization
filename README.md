@@ -26,6 +26,9 @@ Each decoder block has an Addition layer to add skip connections, ConvolutionalT
 ![flow](https://user-images.githubusercontent.com/23094225/59154892-4d6b8700-8a9a-11e9-8df5-bf9b361d9baa.png)
 
 
+# Trained model: [link](https://drive.google.com/open?id=1-ENEFslyFArok-b3Yc4tWtLn7rF5wwTI)
+
+
 # Results:
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ground Truth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Model Input &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Model Output
