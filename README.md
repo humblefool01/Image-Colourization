@@ -24,11 +24,16 @@ The model follows an encoder-decoder architecture, with skip connections from en
 ![flow](https://user-images.githubusercontent.com/23094225/59154892-4d6b8700-8a9a-11e9-8df5-bf9b361d9baa.png)
 
 
+<<<<<<< HEAD
 Each encoder block has a Convolutional layer, LeakyReLU layer followed by a BatchNormalization layer and Dropout layer.
+=======
+Each encoder block has a Convolutional layer, LeakyReLU layer followed by a BatchNormalization layer.
+>>>>>>> 589a60527fffd9125dac1db6f73778fc402f571a
 Each decoder block has an Addition layer to add skip connections, ConvolutionalTranspose layer, LeakyReLU layer and BatchNormalization layer.
 
 # Results:
 
+<<<<<<< HEAD
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ground Truth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Model Input &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Model Output
 
 ![1](https://user-images.githubusercontent.com/23094225/59155636-af80b800-8aab-11e9-954a-156de3b73475.jpg)&nbsp;&nbsp;&nbsp;&nbsp;  ![1_gray](https://user-images.githubusercontent.com/23094225/59155642-ee167280-8aab-11e9-8bd1-aa1ab25171dc.jpg)  &nbsp;&nbsp;&nbsp;&nbsp;   ![1_predicted](https://user-images.githubusercontent.com/23094225/59155646-1900c680-8aac-11e9-921e-302668913378.jpg)
@@ -54,6 +59,8 @@ Each decoder block has an Addition layer to add skip connections, ConvolutionalT
 
 
 
+=======
+>>>>>>> 589a60527fffd9125dac1db6f73778fc402f571a
 
 
 
