@@ -21,12 +21,15 @@ In this project, the model is trained to colour grayscale images of the followin
 
 # Model Architecture:
 The model follows an encoder-decoder architecture, with skip connections from encoder fed to the decoder (U-Net). The skip connection helps to preserve the local information of the input image which is used for reconstruction in the decoder. The model consists of 7 blocks of encoder followed by 7 blocks of decoder. Each encoder block has a Convolutional layer, LeakyReLU layer followed by a BatchNormalization layer and Dropout layer.
-Each decoder block has an Addition layer to add skip connections, ConvolutionalTranspose layer, LeakyReLU layer and BatchNormalization layer. Architecture of the model:
+Each decoder block has an Addition layer to add skip connections, ConvolutionalTranspose layer, LeakyReLU layer and BatchNormalization layer. The model takes input image of size 256X256X1 and outputs the coloured version of the image of size 256X256X3.
+
+Architecture of the model:
 
 ![flow](https://user-images.githubusercontent.com/23094225/59154892-4d6b8700-8a9a-11e9-8df5-bf9b361d9baa.png)
 
 
-# Trained model: [link](https://drive.google.com/open?id=1-ENEFslyFArok-b3Yc4tWtLn7rF5wwTI)
+# Trained model: 
+You can download the trained model from this [link](https://drive.google.com/open?id=1-ENEFslyFArok-b3Yc4tWtLn7rF5wwTI)
 
 
 # Results:
