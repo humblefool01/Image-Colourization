@@ -56,8 +56,10 @@ You can download the trained model from this [link](https://drive.google.com/fil
 ![9](https://user-images.githubusercontent.com/23094225/59155749-07b8b980-8aae-11e9-845c-b45d6585a66c.jpg)&nbsp;&nbsp;&nbsp;&nbsp;  ![9_gray](https://user-images.githubusercontent.com/23094225/59155755-14d5a880-8aae-11e9-834f-645b9f6ffa1a.jpg)  &nbsp;&nbsp;&nbsp;&nbsp;   ![9_predicted](https://user-images.githubusercontent.com/23094225/59155760-261eb500-8aae-11e9-9eaa-031900322edc.jpg)
 
 
-
-
+# References:
++ https://arxiv.org/abs/1803.05400
++ https://arxiv.org/abs/1712.03400
++ http://cs231n.stanford.edu/reports/2017/pdfs/302.pdf
 
 
 
